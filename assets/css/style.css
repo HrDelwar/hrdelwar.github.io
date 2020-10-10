@@ -35,11 +35,45 @@
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-gplus:before { content: '\f0d5'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-github:before { content: '\f09b'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
 
 /* CUSTOM RESETS
 ================================================== */
+.custom-tooltip{
+    display: inline-block;
+    position: relative;
+}
+.custom-tooltip .custom-tooltip-item{
+    display: none;
+
+}
+.custom-width{
+    min-width: 100px  !important;
+}
+.tooltip-round{
+    font-size: 20px;
+    padding: 8px 12px !important;
+    border-radius: 50%;
+    font-weight: 900;
+}
+.tooltip-left{
+    left: -50% !important;
+
+}
+.custom-tooltip:hover .custom-tooltip-item{
+  display: inline-block;
+   padding: 5px  5px;
+   line-height: 1.5;
+    z-index: 100;
+    background: linear-gradient(to right,#03b593,#00C358);
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    top: 105%;
+    text-align: center;
+    text-transform: capitalize;
+}
 a {
     transition: color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out;
@@ -96,7 +130,6 @@ h4 {
     border-bottom: 1px solid #00C358; 
     color: #03b593;
 }
-.btn-fill:hover,
 .btn-fill:hover, .btn-fill:focus {
     background: linear-gradient(to right,#03b593,#00C358);
     color: #fff;
@@ -373,7 +406,9 @@ html, body {
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
+.service img{
+    width: 50px;
+}
 .service h4 {
     margin: 25px 0;
     font-size: 24px;
@@ -458,7 +493,7 @@ html, body {
 
 .portfolio-item-info a:hover {
     color: #fff;
-    background: #03b593;
+    background: linear-gradient(to left,#00C358,#03b593);
     border-color: #03b593;
 }
 .portfolio-item-info a:focus{
@@ -590,7 +625,6 @@ html, body {
 }
 
 .icon {
-    line-height: 40px;
     padding: 9px 11px;
     color: #03b593;
     border: 1px solid #03b593;
