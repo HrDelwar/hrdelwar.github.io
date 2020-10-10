@@ -160,15 +160,15 @@
 	}
 
 	.site-logo img {
-		height: 22px;
-	}
+	height: 30px;
+}
 
 	/* Navigation */
-	.navbar-toggle {
-	    margin: 0 15px 0 0;
-	    padding: 5px 0;
-	   	border: 0;
-	}
+.navbar-toggle {
+	margin: 5px 15px 0 0;
+	padding: 5px 0;
+	border: 0;
+}
 
 	.navbar-toggle .icon-bar {
 		height: 1px;
