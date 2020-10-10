@@ -15,7 +15,6 @@
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
-  font-style: normal;
   font-weight: normal;
   speak: none;
   display: inline-block;
@@ -79,7 +78,6 @@ a {
     -moz-transition: color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out;
     -o-transition: color 0.25s ease-in-out;
-    -ms-transition: color 0.25s ease-in-out;
 }
 
 a:focus,
@@ -108,7 +106,6 @@ h4 {
     -moz-transition: box-shadow 0.25s ease-in-out;
     -webkit-transition: box-shadow 0.25s ease-in-out;
     -o-transition: box-shadow 0.25s ease-in-out;
-    -ms-transition: box-shadow 0.25s ease-in-out;
 }
 
 .btn-fill {
@@ -137,7 +134,7 @@ h4 {
 
 .btn:hover,
 .btn:focus {
-    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* Input fields */
@@ -216,7 +213,7 @@ html, body {
 }
 @keyframes header-stript {
 0% {
-        background-position: 0%;
+        background-position: 0;
     }
     100% {
         background-position: 100%;
@@ -245,7 +242,6 @@ html, body {
     -moz-transition: border-color 0.25s ease-in-out;
     -webkit-transition: border-color 0.25s ease-in-out;
     -o-transition: border-color 0.25s ease-in-out;
-    -ms-transition: border-color 0.25s ease-in-out;
 }
 
 .navbar-nav.navbar-right {
@@ -403,7 +399,7 @@ html, body {
     padding: 120px 100px;
     position: relative;
     background-color: #fff;
-    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 .service img{
@@ -447,7 +443,6 @@ html, body {
     -moz-transition: background-color 0.25s ease-in-out;
     -webkit-transition: background-color 0.25s ease-in-out;
     -o-transition: background-color 0.25s ease-in-out;
-    -ms-transition: background-color 0.25s ease-in-out;
 }
 
 .portfolio-item:hover:before{
@@ -457,14 +452,13 @@ html, body {
 .portfolio-item-info {
     position: absolute;
     top: 150px;
-    left: 0px;
+    left: 0;
     z-index: 999;
     opacity: 0;
     transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
     -moz-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
     -webkit-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;;
 }
 
 .portfolio-item:hover .portfolio-item-info {
@@ -488,7 +482,6 @@ html, body {
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 .portfolio-item-info a:hover {
@@ -510,7 +503,7 @@ html, body {
 
 .modal-content {
     border-radius: 0;
-    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 40px 8px rgba(0, 0, 0, 0.2);
 }
 
 .modal-header {
@@ -534,13 +527,12 @@ html, body {
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
     text-shadow: none;
 }
 
 
 .modal-header .close:hover {
-    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2);
     background: #03B593;
     color: #fff;
 }
@@ -566,7 +558,7 @@ html, body {
     margin-top: 5%;
    }
    100%{
-    margin-top: 0%;
+    margin-top: 0;
    }
 }
 .modal-footer {
@@ -649,7 +641,6 @@ html, body {
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 a:focus{
     color: #01C257;
