@@ -356,9 +356,8 @@ html, body {
     text-transform: uppercase;
     margin: 0 0 15px;
 }
-
 .progress {
-    height: 15px;
+    height: 21px;
     margin-bottom: 0;
     border-radius: 0;
     background-color: #bceeb8;
@@ -366,7 +365,8 @@ html, body {
 }
 
 .progress-bar {
-    background: linear-gradient(to right,#00C358,#2cf5ff);
+    background: linear-gradient(to right,#03b593,#89A294);
+    color: #fff;
 }
 /* Section: Services */
 .section-services {
