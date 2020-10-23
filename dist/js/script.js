@@ -1,4 +1,5 @@
-$(function() {
+
+$(document).ready(function() {
 
 //Collapsed expand nav link
     $('.navbar-toggle').click(function() {
